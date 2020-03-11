@@ -1,6 +1,7 @@
-# Sri-Lankan-Currency-Note-Recognition---FYP
+# Sri-Lankan-Currency-Note-Recognition
 
-Dataset which is used to train the model is given in below link
+Dataset which is used to train the model is given in below link:
+
 https://drive.google.com/open?id=1KmNmoi2adzc9Axb9KvldOPLvvQPZc-Nq
 
 datagen.py was used for data augmentation
