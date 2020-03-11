@@ -11,15 +11,12 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 img_width, img_height = 224, 224
-#model_path = 'D:/Final FYP/Renewed/testImages/CashKeras-50-finetune_all-epoch-drpt-03-lr0000001.h5'
-#model_path = 'D:/Final FYP/models/CashKeras-50-finetune_all-epoch-drpt-03-lr0000001.h5'
-model_path = 'C:/Users/HP/Desktop/Chan/CashKeras-50-finetune_2-epoch-drpt-03-lr0001.h5'
-#model_path = 'C:/Users/HP/Desktop/Chan/CashKeras-50-finetune_all-epoch-drpt-03-lr0000001.h5'
+model_path = 'D:/FYP/models/CashKeras-50-finetune_2-epoch-drpt-03-lr0001.h5'
 model = tf.keras.models.load_model(model_path,compile=False)
 
 
 def camera():
-    url = 'http://192.168.43.1:8080/shot.jpg'
+    url = 'http://ip address:8080/shot.jpg'
 
     while True:
         imgResp = urllib.request.urlopen(url)
